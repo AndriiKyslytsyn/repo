@@ -1,0 +1,8 @@
+features: Test Search input field
+
+Background:
+        Given:  I am on webdriverio page
+Scenario: Enter some text to the search input field
+        When: I click on search
+        Then: I type text to search
+        
